@@ -10,12 +10,12 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Public Sans";
+    font-size: 14px;
 }
 
 .btn {
     background-color: #EBC80C;
     color: #191C1F;
-    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 48px;
@@ -35,11 +35,14 @@ body {
 }
 .header__line-top {
     background-color: #191C1F;
-    padding: 18px 0;
+    padding: 16px 0;
 }
-.header__line-top .container {
+
+.header__line-top .container,
+.header__line-middle-top .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .sale__box-right {
@@ -90,6 +93,23 @@ body {
     margin: 0 8px;
 }
 
-.shop__now-btn {
+.header__line-middle {
+    background-color: #1B6392;
+}
 
+.header__line-greeting {
+    color: #fff;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.header__middle-line-right,
+.header__middle-dropdowns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__middle-dropdowns .lang-list,
+.header__middle-dropdowns .currency-list {
+    display: none;
 }
