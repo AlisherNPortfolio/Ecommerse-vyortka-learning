@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Public Sans";
+    src: url('~/assets/fonts/PublicSans.ttf');
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Public Sans";
+}
+
+.btn {
+    background-color: #EBC80C;
+    color: #191C1F;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    letter-spacing: 0.17px;
+    word-wrap: break-word;
+    padding: 0 24px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+}
+.header__line-top {
+    background-color: #191C1F;
+    padding: 18px 0;
+}
+.header__line-top .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale__box-right {
+    font-weight: 600;
+    word-wrap: break-word;
+    color: white;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.sale__box-right span {
+    background-color: #F3DE6D;
+    display: inline-block;
+    color: #191C1F;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 6px 10px;
+    transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+}
+
+.sale__box-right b {
+    margin-left: 12px;
+}
+
+.sale__box-center {
+    color: white;
+    font-size: 20px;
+    font-family: Public Sans;
+    font-weight: 600;
+    line-height: 28px; 
+    word-wrap: break-word;
+    display: flex;
+    align-items: center;
+}
+
+.sale__box-center span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px; 
+}
+
+.sale__box-center b {
+    color: #EBC80C;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    margin: 0 8px;
+}
+
+.shop__now-btn {
+
+}

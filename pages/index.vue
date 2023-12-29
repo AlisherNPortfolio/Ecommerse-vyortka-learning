@@ -1,4 +1,4 @@
 <template>
-    <h1>Salom</h1>
+    <LayoutHeader />
 </template>
 <script setup lang="ts"></script>
